@@ -1,0 +1,107 @@
+h1 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+p {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 21px;
+}
+
+span {
+  font-weight: 700px;
+}
+
+header {
+  width: 100%;
+  padding: 16px;
+  background-color: #333333;
+  text-align: center;
+}
+
+.jobs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  max-width: 1024px;
+  margin: 32px auto;
+}
+
+.red {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: auto;
+  gap: 16px;
+  width: calc((100% - 64px) / 4);
+  height: 300px;
+  padding: 16px;
+  border: 10px solid #e30413;
+}
+
+.green {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: auto;
+  gap: 16px;
+  width: calc((100% - 64px) / 4);
+  height: 300px;
+  padding: 16px;
+  border: 10px solid #3ea535;
+}
+
+.yellow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: auto;
+  gap: 16px;
+  width: calc((100% - 64px) / 4);
+  height: 300px;
+  padding: 16px;
+  border: 10px solid #ffee00;
+}
+
+.blue {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: auto;
+  gap: 16px;
+  width: calc((100% - 64px) / 4);
+  height: 300px;
+  padding: 16px;
+  border: 10px solid #039fe3;
+}
+
+.pink {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: auto;
+  gap: 16px;
+  width: calc((100% - 64px) / 4);
+  height: 300px;
+  padding: 16px;
+  border: 10px solid #f8c5af;
+}
+
+footer {
+  width: 100%;
+  padding: 16px;
+  background-color: #dddddd;
+  text-align: center;
+}
